@@ -46,3 +46,8 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Rspec for testing during development
+group :development, :test do
+  gem 'rspec-rails', '~> 3.7'
+end

@@ -1,0 +1,6 @@
+<% @page_title = "UserAuth | Signup" %>
+<div class="Sign_Form">
+  <h1>Welcome <%=@user.name%></h1>
+  <%= debug @user.data_struct %>
+  <%= link_to "Log Out", logout_path %>
+</div>

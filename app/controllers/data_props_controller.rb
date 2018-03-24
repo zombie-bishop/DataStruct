@@ -1,0 +1,2 @@
+class DataPropsController < ApplicationController
+end
